@@ -1,0 +1,413 @@
+/* Jetbrain Mono */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Nunito */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* Fira Sans */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+/* Remova a regra body img existente */
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: #202020;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+
+nav {
+    background-color: #09813f;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "JetBrains Mono", monospace;
+}
+
+nav ul{
+    display: flex; /* Usado para deixar os tópicas do cabeçalho um do lado do outro */
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+nav li {
+    margin-left: 7px; /* Para dar o espaço entre os tópicos */
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: 500; /* Grossura da fonte */
+    padding: 8px /* Para cima */ 15px /* Para os lados */;
+    border-radius: 5px;
+    background-color: #08a34e;
+    transition: 0.1s;
+}
+
+nav li a:hover {
+    background-color: #086e36;
+}
+
+nav img {
+    max-width: 100px;
+}
+
+
+
+.section_title2 {
+  font-size: 3rem;
+  color: #cfcece;
+  text-align: center;
+}
+
+.breaking_content b {
+  color: #09813f;
+}
+
+
+
+.container {
+  max-width: 127.6rem;
+  margin: auto;
+  background-color: #08221b;
+}
+
+.wrapperContainer-padded {
+  padding-top: 12rem;
+}
+
+.wrapperContainer {
+  padding-top: 1px;
+}
+
+.imagem_walter {
+  display: flex;
+  gap: 5rem;
+  padding-top: 6rem;
+}
+
+.escola_title {
+  color: #cfcece;
+  font-size: 3.4rem;
+  margin-top: 2rem;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.breaking_content p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #cfcece;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+    margin-left: 100px;
+  }
+  
+  .card {
+    border: none;
+
+  }
+  
+  /* Restante do seu código CSS permanece o mesmo */
+
+  .btn {
+    background-color: #09813f;
+    border: none;
+  }
+
+
+  
+
+  .btn:hover {
+    background-color: #095a2d;
+  }
+
+  .card-body {
+    background-color: #0c2c24;
+    color: #ccc;
+  }
+
+.bb img {
+    max-width: 200px;
+    margin-top: 90px;
+    margin-left: 600px;
+  }
+
+  .d-flex, .flex-row  {
+    margin-left: 300px;
+  }
+
+
+
+  .intro {
+    width: 80%;
+    margin: auto;
+    
+  }
+
+  .titulo {
+    font-size: 3rem;
+    color: #fafafa;
+    text-align: center;
+  }
+
+  .texto {
+    font-size: 1.2rem;
+    color: #cfcece;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-family: "Fira Sans", sans-serif;
+    margin-top: 50px;
+  }
+
+  .pp {
+    text-align: center;
+    color: #fafafa;
+    margin-top: 80px;
+  }
+
+  .link1 {
+    text-decoration: none;
+    color: #0db85a;
+  }
+
+  .link1:hover {
+    text-decoration: underline;
+  }
+
+.imagem_walter img {
+  border-radius: 5px;
+}
+
+.breaking_content {
+  font-family: "Fira Sans", sans-serif;
+}
+
+.fixed-button, .topo {
+  font-family: "JetBrains Mono", monospace;
+}
+
+
+.title-characters {
+  margin-top: 80px;
+}
+
+.characters {
+  margin-top: 80px;
+}
+
+
+/* Botão Fixo */
+.fixed-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #08a34e;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+}
+
+.fixed-button:hover {
+  background-color: #066933;
+}
+
+.topo {
+  text-decoration: none;
+  color: #fafafa;
+}
+
+.footer {
+    padding: 10px;
+    margin-top: 90px;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.footer p {
+    text-align: center;
+    color: #fafafa;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #0db85a;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade */
+
+/* Adicione as regras de estilo para dispositivos móveis aqui */
+/* Adicione as regras de estilo para dispositivos móveis aqui */
+@media only screen and (max-width: 768px) {
+  nav {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  nav ul {
+      margin-top: 10px;
+      gap: 7px;
+  }
+
+  nav li {
+      margin: 5px 0;
+  }
+
+  .imagem_walter {
+      flex-direction: column;
+      align-items: center;
+      padding-top: 3rem;
+  }
+
+  .container {
+      padding: 10px;
+  }
+
+  .card {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
+  .fixed-button {
+      bottom: 10px;
+      right: 10px;
+  }
+
+  /* Tornar as imagens responsivas */
+  .bb img,
+  .card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+  }
+}
+
+
+/* Adicione as regras de estilo para dispositivos móveis aqui */
+/* Adicione as regras de estilo para dispositivos móveis aqui */
+@media only screen and (max-width: 768px) {
+  /* ... (outras regras de mídia aqui) */
+
+  /* Tornar as imagens responsivas */
+  .bb img,
+  .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      display: block; /* Corrigir espaçamento adicional em algumas situações */
+      margin: 0 auto; /* Centralizar as imagens */
+  }
+
+  .container {
+      padding: 10px;
+      box-sizing: border-box;
+  }
+
+  .card {
+      width: calc(100% - 20px); /* Ajustar a largura dos cards para a largura total do contêiner com 10px de espaço em cada lado */
+      margin-bottom: 20px;
+  }
+
+ /* Dentro da sua regra de mídia para dispositivos móveis */
+.imagem_walter {
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+  max-width: 100%; /* Impede que a seção ultrapasse a largura do viewport */
+  overflow: hidden; /* Esconde qualquer conteúdo que ultrapasse a largura */
+}
+
+.imagem_walter img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 15px; /* Adiciona espaço entre as imagens */
+}
+
+
+  .intro {
+      width: 90%; /* Ajustar a largura da introdução */
+      margin: auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* Tablets */
+
+
+@media only screen and (max-width: 1024px) {
+  .intro {
+      width: 90%;
+      margin: auto;
+  }
+
+  .imagem_walter {
+      flex-direction: column;
+      align-items: center;
+      padding-top: 3rem;
+  }
+
+  .section_title2 {
+      font-size: 2.5rem;
+  }
+
+  .bb img {
+      max-width: 150px;
+      margin-top: 60px;
+      margin-left: 330px;
+  }
+
+  nav {
+      padding: 10px 20px;
+  }
+}
+
+
+@media only screen and (min-width: 1600px) {
+  .container {
+      max-width: 1500px;
+  }
+
+  .wrapperContainer-padded {
+      padding-top: 8rem;
+  }
+
+  .wrapperContainer {
+      padding-top: 2px;
+  }
+
+  .imagem_walter {
+      gap: 8rem;
+      padding-top: 8rem;
+  }
+}

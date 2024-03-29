@@ -1,0 +1,408 @@
+
+/* Jetbrain Mono */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Nunito */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* Fira Sans */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #202020;
+}
+
+.main_content {
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+/* Config da Nav, Ul e Li */
+
+nav {
+    background-color: #09813f;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav ul{
+    display: flex; /* Usado para deixar os tópicas do cabeçalho um do lado do outro */
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+nav li{
+    margin-left: 7px; /* Para dar o espaço entre os tópicos */
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: 500; /* Grossura da fonte */
+    padding: 8px /* Para cima */ 15px /* Para os lados */;
+    background-color: #08a34e;
+    border-radius: 5px;
+    transition: 0.1s;
+    font-family: "JetBrains Mono", monospace;
+}
+
+nav li a:hover {
+    background-color: #086e36;
+}
+
+nav img {
+    max-width: 100px;
+}
+
+/* Config do título */
+.titulo {
+    text-align: center;
+    color: #fafafa;
+    margin-top: 14rem;
+    margin-bottom: 4rem;
+    font-family: "JetBrains Mono", monospace;
+}
+
+
+.gus {
+    width: 450px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+/* Config das Fotos */
+.content img {
+    max-width: 550px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+/* Config das fotos */
+.jesse {
+    max-width: 550px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+
+
+/* Config do Span do direito das imagens */
+.credit {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+    color: #fafafa;
+}
+
+.credit2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    color: #fafafa;
+}
+
+
+/* Configuração dos Links referentes aos personagens, diretores ou fatos da série */
+.link1 {
+    text-decoration: none;
+    color: #0db85a;
+  }
+
+.link1:hover {
+    text-decoration: underline;
+  }
+
+.link2 {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.link2:hover {
+    text-decoration: underline;
+}
+
+
+/* Links Referênciais das fotos utilizadas no projeto */ 
+.imdb {
+    text-align: center;
+    margin-left: 7px;
+    text-decoration: none;
+    color: #f3ce13;
+}
+
+.imdb:hover {
+    text-decoration: underline;
+}
+
+.break {
+    text-align: center;
+    margin-left: 7px;
+    text-decoration: none;
+    color:  #0db85a;
+}
+
+.break:hover {
+    text-decoration: underline;
+}
+
+.imdb, .r7, .olhar, .fandom, .credit, .rodape, .break, .wiki, .fixed-button, .topo, .music, .credit2 {
+    font-family: "JetBrains Mono", monospace;
+}
+
+
+.r7 {
+    text-align: center;
+    margin-left: 7px;
+    text-decoration: none;
+    color: #1387f3;
+}
+
+.r7:hover {
+    text-decoration: underline;
+}
+
+.olhar {
+    text-align: center;
+    margin-left: 7px;
+    text-decoration: none;
+    color: #089c12;
+}
+
+.olhar:hover {
+    text-decoration: underline;
+}
+
+.fandom {
+    text-align: center;
+    margin-left: 7px;
+    text-decoration: none;
+    color: rgb(204, 10, 10);
+}
+
+.fandom:hover {
+    text-decoration: underline;
+}
+
+.wiki {
+    text-align: center;
+    margin-left: 7px;
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.wiki:hover {
+    text-decoration: underline;
+}
+
+
+
+.pop {
+    color: black;
+}
+
+.music {
+    text-align: center;
+    margin-left: 7px;
+    text-decoration: none;
+    color: #fa8072;
+}
+
+.music:hover {
+    text-decoration: underline;
+}
+
+
+/* Configuração dos textos */
+.text {
+    font-size: 1.2rem;
+    color: #fafafa;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    margin-top: 80px;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.text3 {
+    font-size: 1.3rem;
+    color: #fafafa;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    margin-top: 4rem;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.text1 {
+    font-size: 1.2rem;
+    color: #fafafa;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.text2 {
+    font-size: 1.2rem;
+    color: #fafafa;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    margin-top: 2rem;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.texto {
+    width: 750px;
+    text-align: left;
+    margin-left: 400px;
+    margin-top: 7rem;
+}
+
+.texto2 {
+    width: 850px;
+    text-align: left;
+    margin-left: 160px;
+    margin-top: 1.5rem;
+    width: 55%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.fixed-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #08a34e;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+  }
+  
+  .fixed-button:hover {
+    background-color: #066933;
+  }
+
+  .topo {
+    text-decoration: none;
+    color: #fafafa;
+  }
+
+
+/* Footer */
+.footer {
+    padding: 10px;
+    margin-top: 8rem;
+}
+
+.footer p {
+    text-align: center;
+    color: #fafafa;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #0db85a;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para telas maiores (desktop) */
+/* ... (seu CSS existente) ... */
+
+/* Configurações para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px; /* Ajuste o tamanho da fonte conforme necessário */
+    }
+
+    .main_content {
+        width: 100%; /* Use a largura total da tela */
+        margin-top: 60px; /* Ajuste o espaçamento superior conforme necessário */
+    }
+
+    nav {
+        padding: 10px; /* Reduza o preenchimento da barra de navegação */
+    }
+
+    nav ul {
+        flex-direction: column; /* Coloque os itens da navegação em uma coluna */
+        align-items: stretch; /* Estique os itens para ocupar a largura total */
+        text-align: center; /* Centralize o texto */
+        margin-top: 0;
+        gap: 10px; /* Remova a margem superior */
+    }
+
+    nav li {
+        margin: 5px 0; /* Adicione algum espaçamento vertical entre os itens da navegação */
+    }
+
+    nav img {
+        max-width: 80px; /* Reduza o tamanho do logo */
+    }
+
+    .titulo {
+        margin-top: 4rem; /* Ajuste o espaçamento superior do título */
+        margin-bottom: 2rem; /* Ajuste o espaçamento inferior do título */
+    }
+
+    .gus,
+    .content img,
+    .jesse {
+        width: 100%; /* Use a largura total da tela para imagens */
+    }
+
+    .credit,
+    .credit2 {
+        margin-top: 1rem; /* Ajuste o espaçamento superior do crédito */
+        margin-bottom: 2rem; /* Ajuste o espaçamento inferior do crédito */
+    }
+
+    .texto,
+    .texto2 {
+        width: 100%; /* Use a largura total da tela para o texto */
+        margin-left: 0; /* Remova a margem esquerda */
+    }
+
+    .footer {
+        margin-top: 2rem; /* Ajuste o espaçamento superior do rodapé */
+    }
+}
